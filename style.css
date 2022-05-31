@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    text-decoration: none !important;
+  }
+  body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* ----------------------------------------------------------HEADER------------------------------------------------------------------------------ */
+.f-size{
+    font-size: 70px;
+}
+
+img-size{
+    width: 10px;
+}
+
+header{
+    background-color: black;
+}
+
+header h1{
+    color: black ;
+}
+
+.texto-alineado{
+    
+    vertical-align: middle;
+    padding-right: 300px;
+}
+    
+header a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+   
+}
+ header a img{
+     width: 150px;
+}
+  
+
+.menu-header{
+    background-color: #a32129;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.menu-header a{
+    font-size: 30px ;
+    
+}
+
+
+.item-sticky{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+
+/*------------------------------------------------ANIMACION HEADER-------------------------------------------*/
+
+
+
+/*MAIN*/
+
+
+/*WHATSAPP*/
+.item-fixed {
+    position: fixed;
+    bottom:0;
+    right: 0;
+}
+
+.item-fixed img{
+      width: 70px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: grey;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    list-style: none !important;
+}
+
+footer ul li{
+    color: black;
+}
+ footer nav li img{
+     width: 20px;
+ }
+ footer ul li img{
+     width: 20px;
+ }
+footer nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+footer h5{
+    color: black;
+    margin-bottom: 20px;
+}
