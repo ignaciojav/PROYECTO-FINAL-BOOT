@@ -2,21 +2,22 @@
     margin: 0;
     padding: 0;
 }
-html {
+/*html {
     box-sizing: border-box;
-    text-decoration: none ;
-  }
+    
+  }*/
  body{
-    background-color: black;
+   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 
 /* ----------------------------------------------------------HEADER------------------------------------------------------------------------------ */
-.f-size{
-    font-size: 70px;
+.img-logo{
+    width: 80px;
 }
+
 
 img-size{
     width: 10px;
@@ -70,7 +71,11 @@ header a{
 /*------------------------------------------------ANIMACION HEADER-------------------------------------------*/
 
 
-
+main{ 
+    background-image: url(multimedia/imagenes/wallpaper-neon.jpg);
+    padding-top: 100px;
+    margin-bottom: 0%;
+}
 
 
 
@@ -78,6 +83,7 @@ header a{
 
 
 /*-------------------------------------MAIN----------------------------------------*/
+
 
 /*----------------------------------CARROUSEL----------------------------------*/
 .carousel-edit {
@@ -90,6 +96,12 @@ header a{
     }
   }
 
+  /*-------------------ARTICULOS MAIN------------------*/
+
+  .articulos-main{
+      display: none;
+  }
+
 /*----------------------WHATSAPP---------------------------------*/
 .item-fixed {
     position: fixed;
@@ -100,7 +112,9 @@ header a{
 .item-fixed img{
       width: 70px;
 }
-
+.ul-whatsapp{
+    list-style-type: none;
+}
 
   /*----------------------------------------------------FOOTER------------------------------------------------------------*/
 footer{
@@ -109,11 +123,12 @@ footer{
     display: flex;
     flex-direction: column;
     list-style: none ;
+    
 }
 
-footer ul li{
+ /*footer ul li{
     color: black;
-}
+}*/
  footer nav li img{
      width: 20px;
  }
@@ -122,9 +137,26 @@ footer ul li{
  }
 footer nav ul li a{
     text-decoration: none;
-    color:black;
+    
+}
+
+footer nav ul li a:hover{
+    background-color: rgb(56, 54, 54);
 }
 footer h5{
     color: black;
     margin-bottom: 20px;
+}
+
+
+
+/*--------------------------------MEDIA--------------------------*/
+
+/*----MAIN-ARTICULOS-INDEX-------------*/
+
+@media screen and (min-width: 600px){
+    .articulos-main{
+        display: block;
+        
+}
 }
